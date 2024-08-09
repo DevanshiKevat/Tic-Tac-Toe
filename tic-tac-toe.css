@@ -1,0 +1,97 @@
+/* body {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+  /* } */ 
+  
+  /* h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+   */
+  /* .container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  } */
+   /* .container1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* width: 330px; Adjust width based on button size and gap */
+  /* margin-bottom: 20px; */ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.game{
+    text-align: center;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+}
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px solid #e0edf2;
+    background-color: #03101b;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .msg_container {
+    width: 250px;
+    height: 50px;
+    background-color: #cce4e9;
+    padding: 20px;
+    border: 2px solid #000;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #reset-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+  }
+  
+  #reset-btn:hover {
+    background-color: #f0f0f0;
+  }
+  

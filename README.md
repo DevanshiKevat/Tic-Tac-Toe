@@ -1,4 +1,4 @@
-<h1> Tic-Tac-Toe</h1><br>
-<h4>Made up with th epurpose of new learnings and also dive into GUI side</h4>
-<h4>Technologies : HTML , CSS , Java Script </h4>
-
+<h1>Tic-Tac-Toe</h1>
+<br>
+<h4>Made with the purpose of new learnings and diving into the GUI side</h4>
+<h4>Technologies: HTML, CSS, JavaScript</h4>
